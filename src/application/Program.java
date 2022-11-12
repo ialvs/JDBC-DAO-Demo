@@ -15,7 +15,6 @@ public class Program {
 		
 		System.out.println("=== TEST 1: seller findById ===");
 		Seller seller = sellerDao.findById(1);
-		
 		System.out.println(seller);
 		
 		System.out.println("=== TEST 2: seller findByDepartment ===");
@@ -46,7 +45,7 @@ public class Program {
 		System.out.println("Update completed");
 		
 		
-		System.out.println("=== TEST 6: seller update ===");
+		System.out.println("=== TEST 6: seller delete ===");
 		sellerDao.deleteById(8);
 		System.out.println("Delete completed");
 	}
