@@ -44,6 +44,11 @@ public class Program {
 		seller.setName("Martha Black");
 		sellerDao.update(seller);
 		System.out.println("Update completed");
+		
+		
+		System.out.println("=== TEST 6: seller update ===");
+		sellerDao.deleteById(8);
+		System.out.println("Delete completed");
 	}
 
 }
